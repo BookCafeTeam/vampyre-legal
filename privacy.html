@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vampyre — Privacy Policy</title>
+<style>
+  :root {
+    --bg: #080A0B;
+    --surface: #14171A;
+    --gold: #FFB000;
+    --gold-pale: #F3D188;
+    --cream: #EDE7DB;
+    --cream-dim: #9B8B79;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--cream);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 32px 20px 80px;
+  }
+  header {
+    text-align: center;
+    padding: 24px 0 32px;
+    border-bottom: 1px solid rgba(255, 176, 0, 0.2);
+    margin-bottom: 32px;
+  }
+  h1 {
+    color: var(--gold-pale);
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin: 0 0 8px;
+  }
+  .updated {
+    color: var(--cream-dim);
+    font-size: 13px;
+  }
+  .lang-toggle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  .lang-toggle button {
+    background: transparent;
+    border: 1px solid rgba(255, 176, 0, 0.4);
+    color: var(--cream);
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 13px;
+    cursor: pointer;
+  }
+  .lang-toggle button.active {
+    background: var(--gold);
+    color: #2A1C02;
+    font-weight: 700;
+    border-color: var(--gold);
+  }
+  h2 {
+    color: var(--gold);
+    font-size: 17px;
+    margin: 32px 0 10px;
+    letter-spacing: 0.3px;
+  }
+  p, li { color: var(--cream); font-size: 14.5px; }
+  ul { padding-left: 20px; }
+  a { color: var(--gold-pale); }
+  .lang-section[hidden] { display: none; }
+  footer {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 176, 0, 0.15);
+    color: var(--cream-dim);
+    font-size: 12px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>VAMPYRE — Privacy Policy</h1>
+    <div class="updated">Last updated: July 9, 2026</div>
+    <div class="lang-toggle">
+      <button id="btn-en" class="active" onclick="showLang('en')">English</button>
+      <button id="btn-tr" onclick="showLang('tr')">Türkçe</button>
+    </div>
+  </header>
+
+  <section class="lang-section" id="lang-en">
+    <p>This Privacy Policy explains how Vampyre ("the App", package name <code>com.bookcafe.vampyre</code>) collects, uses, and protects information when you use the app. Vampyre is a multiplayer social deduction party game.</p>
+
+    <h2>1. Information We Collect</h2>
+    <ul>
+      <li><strong>Anonymous account identifier:</strong> a random ID created via Firebase Authentication (anonymous sign-in) to identify your device across sessions. No email, phone number, or real name is required.</li>
+      <li><strong>Player profile:</strong> the display name and avatar image/illustration you choose in the app.</li>
+      <li><strong>Gameplay data:</strong> match results, roles played, experience points, and statistics, stored to power your in-app profile and leaderboard-style stats.</li>
+      <li><strong>Diagnostics:</strong> crash reports and performance data via Firebase Crashlytics, and usage analytics via Firebase Analytics (e.g. screens viewed, features used).</li>
+      <li><strong>Advertising data:</strong> if you are not a Pro subscriber, Google AdMob (and its mediation partners, including Unity Ads) may collect device and advertising identifiers to serve and measure ads, subject to your consent choices where required by law (e.g. in the EEA/UK).</li>
+      <li><strong>Subscription data:</strong> if you purchase Vampyre Pro, RevenueCat processes your subscription status and purchase events on our behalf. Payment details are handled entirely by Apple App Store / Google Play — we never see your card information.</li>
+      <li><strong>Camera / Photo Library:</strong> if you choose to set a custom profile photo, the app requests access to your camera or photo library solely to let you pick or take that image.</li>
+    </ul>
+
+    <h2>2. How We Use Information</h2>
+    <ul>
+      <li>To operate core gameplay (rooms, roles, voting, night actions) via Firebase Realtime Database.</li>
+      <li>To maintain your profile, stats, and progression across sessions.</li>
+      <li>To detect and fix crashes and improve app performance.</li>
+      <li>To show relevant ads (non-Pro users) and manage subscriptions (Pro users).</li>
+      <li>To respond to feedback you submit through the in-app feedback form.</li>
+    </ul>
+
+    <h2>3. Data Sharing</h2>
+    <p>We share data only with service providers who help us run the app: Google Firebase (authentication, database, analytics, crashlytics, remote config), Google AdMob and Unity Ads (advertising), and RevenueCat (subscription management). These providers process data under their own privacy policies and only for the purposes described above. We do not sell your personal data.</p>
+
+    <h2>4. Your Choices</h2>
+    <ul>
+      <li>You can delete your account and all associated data at any time from Settings → Delete Account. This permanently removes your profile, stats, and stored game tokens.</li>
+      <li>Where required by law, you will be shown a consent prompt for personalized advertising and can withdraw consent at any time via your device's ad settings.</li>
+      <li>You can restore or cancel a subscription at any time via Settings → Subscription, which opens Apple/Google's native subscription management.</li>
+    </ul>
+
+    <h2>5. Children's Privacy</h2>
+    <p>Vampyre is not directed at children under 13 (or the relevant minimum age in your country) and we do not knowingly collect personal information from children.</p>
+
+    <h2>6. Data Retention</h2>
+    <p>Gameplay and profile data is retained for as long as your account exists. Deleting your account removes this data from our active systems. Anonymized analytics data may be retained for longer for product improvement purposes.</p>
+
+    <h2>7. Contact</h2>
+    <p>Questions about this policy can be sent to <a href="mailto:muhammet2000byt@gmail.com">muhammet2000byt@gmail.com</a>.</p>
+  </section>
+
+  <section class="lang-section" id="lang-tr" hidden>
+    <p>Bu Gizlilik Politikası, Vampyre ("Uygulama", paket adı <code>com.bookcafe.vampyre</code>) uygulamasını kullanırken bilgilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklar. Vampyre, çok oyunculu sosyal çıkarım temalı bir parti oyunudur.</p>
+
+    <h2>1. Topladığımız Bilgiler</h2>
+    <ul>
+      <li><strong>Anonim hesap kimliği:</strong> Firebase Authentication (anonim giriş) ile oluşturulan, cihazınızı oturumlar arasında tanımlamak için kullanılan rastgele bir kimlik. E-posta, telefon numarası veya gerçek isim gerekmez.</li>
+      <li><strong>Oyuncu profili:</strong> uygulamada seçtiğiniz görünen ad ve avatar görseli/illüstrasyonu.</li>
+      <li><strong>Oyun verisi:</strong> uygulama içi profilinizi ve istatistiklerinizi desteklemek için saklanan maç sonuçları, oynanan roller, deneyim puanları ve istatistikler.</li>
+      <li><strong>Tanılama verisi:</strong> Firebase Crashlytics üzerinden çökme raporları ve performans verisi, Firebase Analytics üzerinden kullanım analitiği (örn. görüntülenen ekranlar, kullanılan özellikler).</li>
+      <li><strong>Reklam verisi:</strong> Pro abone değilseniz, Google AdMob (ve Unity Ads dahil aracılık ortakları) reklam sunmak ve ölçmek için cihaz ve reklam kimliklerini, yasanın gerektirdiği durumlarda (örn. AEA/İngiltere) onay tercihlerinize bağlı olarak toplayabilir.</li>
+      <li><strong>Abonelik verisi:</strong> Vampyre Pro satın alırsanız, RevenueCat abonelik durumunuzu ve satın alma olaylarınızı bizim adımıza işler. Ödeme bilgileri tamamen Apple App Store / Google Play tarafından işlenir — kart bilgilerinizi asla görmeyiz.</li>
+      <li><strong>Kamera / Fotoğraf Kütüphanesi:</strong> özel bir profil fotoğrafı ayarlamayı seçerseniz, uygulama yalnızca o görseli seçmenize veya çekmenize izin vermek için kamera veya fotoğraf kütüphanesi erişimi ister.</li>
+    </ul>
+
+    <h2>2. Bilgileri Nasıl Kullanıyoruz</h2>
+    <ul>
+      <li>Firebase Realtime Database üzerinden temel oyun akışını (odalar, roller, oylama, gece aksiyonları) yürütmek için.</li>
+      <li>Profilinizi, istatistiklerinizi ve ilerlemenizi oturumlar arasında korumak için.</li>
+      <li>Çökmeleri tespit edip düzeltmek ve uygulama performansını iyileştirmek için.</li>
+      <li>İlgili reklamları göstermek (Pro olmayan kullanıcılar) ve abonelikleri yönetmek (Pro kullanıcılar) için.</li>
+      <li>Uygulama içi geri bildirim formu aracılığıyla gönderdiğiniz geri bildirimlere yanıt vermek için.</li>
+    </ul>
+
+    <h2>3. Veri Paylaşımı</h2>
+    <p>Verileri yalnızca uygulamayı çalıştırmamıza yardımcı olan hizmet sağlayıcılarla paylaşırız: Google Firebase (kimlik doğrulama, veritabanı, analitik, crashlytics, uzaktan yapılandırma), Google AdMob ve Unity Ads (reklamcılık) ve RevenueCat (abonelik yönetimi). Bu sağlayıcılar verileri kendi gizlilik politikaları kapsamında ve yalnızca yukarıda açıklanan amaçlar için işler. Kişisel verilerinizi satmıyoruz.</p>
+
+    <h2>4. Tercihleriniz</h2>
+    <ul>
+      <li>Ayarlar → Hesabı Sil yoluyla hesabınızı ve ilişkili tüm verilerinizi istediğiniz zaman silebilirsiniz. Bu işlem profilinizi, istatistiklerinizi ve saklanan oyun jetonlarınızı kalıcı olarak kaldırır.</li>
+      <li>Yasanın gerektirdiği durumlarda, kişiselleştirilmiş reklamcılık için bir onay ekranı gösterilir ve onayınızı cihazınızın reklam ayarlarından istediğiniz zaman geri çekebilirsiniz.</li>
+      <li>Ayarlar → Abonelik üzerinden, Apple/Google'ın yerel abonelik yönetimini açarak aboneliğinizi istediğiniz zaman geri yükleyebilir veya iptal edebilirsiniz.</li>
+    </ul>
+
+    <h2>5. Çocukların Gizliliği</h2>
+    <p>Vampyre, 13 yaşın altındaki (veya ülkenizdeki ilgili asgari yaşın altındaki) çocuklara yönelik değildir ve bilerek çocuklardan kişisel bilgi toplamayız.</p>
+
+    <h2>6. Veri Saklama</h2>
+    <p>Oyun ve profil verileri, hesabınız var olduğu sürece saklanır. Hesabınızı silmek bu verileri aktif sistemlerimizden kaldırır. Anonimleştirilmiş analitik veriler, ürün geliştirme amacıyla daha uzun süre saklanabilir.</p>
+
+    <h2>7. İletişim</h2>
+    <p>Bu politika hakkındaki sorularınızı <a href="mailto:muhammet2000byt@gmail.com">muhammet2000byt@gmail.com</a> adresine gönderebilirsiniz.</p>
+  </section>
+
+  <footer>Vampyre &copy; 2026</footer>
+</div>
+<script>
+  function showLang(lang) {
+    document.getElementById('lang-en').hidden = lang !== 'en';
+    document.getElementById('lang-tr').hidden = lang !== 'tr';
+    document.getElementById('btn-en').classList.toggle('active', lang === 'en');
+    document.getElementById('btn-tr').classList.toggle('active', lang === 'tr');
+  }
+</script>
+</body>
+</html>
